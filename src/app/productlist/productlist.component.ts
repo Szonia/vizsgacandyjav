@@ -22,7 +22,7 @@ export class ProductlistComponent {
     // this.cartServ.addProduct(product);
   }
 
-  // *** Termékek rendezése ár szerint ***
+  
   sortProducts(order: string) {
     if (order === 'low-to-high') {
       this.products.sort((a, b) => a.ar - b.ar);

@@ -11,7 +11,7 @@
       <p>Mennyiség: {{ item.mennyiseg }}</p>
       <p>Egységár: {{ item.price }} Ft</p>
       <p>Összesen: {{ item.mennyiseg * item.price }} Ft</p>
-      <button (click)="removeFromCart(item.id)">Eltávolítás</button>
+      <button (click)="removeFromCart(item.key)">Eltávolítás</button>
     </div>
   </div>
 
